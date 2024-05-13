@@ -19,7 +19,7 @@ export const PageHome: React.FC = () => {
                                 <div className="col">
                                     <div className='sticky-content pt-4'>
                                         <h1 className='textStyleGeneral fs-2'>João Vitor</h1>
-                                        <h2 className='textStyleGeneral fs-4'> <img src={codeIcon} width={40} height={30} /> Desenvolvedor backend</h2>
+                                        <h2 className='textStyleGeneral fs-4'> <img src={codeIcon} width={40} height={30} alt="dev icon"  /> Desenvolvedor backend</h2>
                                         <div className='tecnologies-style textStyleGeneral'>
                                             <p className='fw-lighter paragath-style-tecnology'>Node.js</p>
                                             <p className='fw-lighter paragath-style-tecnology'>TypeScript</p>
@@ -37,13 +37,13 @@ export const PageHome: React.FC = () => {
                                         <div className='container-footer-socialmidia'>
                                             <ul className='footer-icons d-flex justify-content-start'>
                                                 <li className='mx-2 li-icons'>
-                                                    <a href="https://github.com/JoaoVitorML-BR" target="blank"><img className='imagesFooter' src={gitHubIcon}></img></a>
+                                                    <a href="https://github.com/JoaoVitorML-BR" target="blank"><img className='imagesFooter' alt="gitHub icon"  src={gitHubIcon}></img></a>
                                                 </li >
                                                 <li className='mx-2'>
-                                                    <a href="https://www.linkedin.com/in/jo%C3%A3o-vitorml-br/" target="blank"><img className='imagesFooter' src={linkedinIcon}></img></a>
+                                                    <a href="https://www.linkedin.com/in/jo%C3%A3o-vitorml-br/" target="blank"><img className='imagesFooter' alt="linkedin icon" src={linkedinIcon}></img></a>
                                                 </li>
                                                 <li className='mx-2'>
-                                                    <a href="https://www.instagram.com/joao_vitor_0o/" target="blank"><img className='imagesFooter' src={instagramIcon}></img></a>
+                                                    <a href="https://www.instagram.com/joao_vitor_0o/" target="blank"><img className='imagesFooter' alt="instagram icon"  src={instagramIcon}></img></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -89,7 +89,7 @@ export const PageHome: React.FC = () => {
                                                 <h5 className='textStyleGeneral fw-light fs-5'>Desenvolvedor FullStack</h5>
                                                 <h6 className='textStyleGeneral fw-lighter paragath-style-tecnology'>09/2022 até momento </h6>
                                                 <div className="image-container">
-                                                    <img className="images-presentation" src={iscompatibleImage} alt="Descrição da imagem" />
+                                                    <img className="images-presentation" src={iscompatibleImage} alt="iscompatible image" />
                                                     <div className="gradient-border"></div>
                                                 </div>
                                                 <p className='textStyleGeneral fw-light pt-1 paragath-style-tecnology'>Esse projeto tem uma grande importância na minha vida pois nele não só pude por em prática meus conhecimentos, como também ajudar a sanar uma dor, pois alguma vez você já se viu com dúvidas na hora de montar o seu PC, questionando se aquele processador ou memória RAM eram compatíveis com a sua placa-mãe? Pois bem, o site "Is compatible ?" ou "É compatível?" foi desenvolvido justamente para aliviar essa preocupação.<br /></p>
@@ -110,7 +110,7 @@ export const PageHome: React.FC = () => {
                                                 <h5 className='textStyleGeneral fw-light fs-5'>Desenvolvedor FullStack</h5>
                                                 <h6 className='textStyleGeneral fw-lighter paragath-style-tecnology'>06/2023 até 07/2023 </h6>
                                                 <div className="image-container">
-                                                    <img className='images-presentation' src={tubeLoadSaveImage} alt="Descrição da imagem" />
+                                                    <img className='images-presentation' src={tubeLoadSaveImage} alt="tubeloadsave image" />
                                                     <div className="gradient-border"></div>
                                                 </div>
                                                 <p className='textStyleGeneral fw-light pt-1 paragath-style-tecnology'>A ideia por trás deste projeto foi aprimorar minhas habilidades no consumo de APIs externas, então optei por criar um downloader para vídeos ou músicas do YouTube como forma de prática.<br /></p>
@@ -131,7 +131,7 @@ export const PageHome: React.FC = () => {
                                             <h5 className='textStyleGeneral fw-light fs-5'>Desenvolvedor backend</h5>
                                             <h6 className='textStyleGeneral fw-lighter paragath-style-tecnology'>08/2023 até 09/2023</h6>
                                             <div className="image-container">
-                                                <img className="images-presentation" src={golangImage} alt="Descrição da imagem" />
+                                                <img className="images-presentation" src={golangImage} alt="golang image" />
                                                 <div className="gradient-border"></div>
                                             </div>
                                             <p className='textStyleGeneral fw-light pt-1 paragath-style-tecnology'>Desenvolvi esse projeto pois estava precisando de uma API para permitir o login e cadastro dos itens no site iscompatible, logo, decidi fazer com go para fugir um pouco do node.js, foi de bastante aprendizado esse projeto pois nele pude aplicar conceitos da arquitetura hexagonal.<br /></p>
