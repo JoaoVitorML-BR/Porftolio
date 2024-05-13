@@ -5,6 +5,7 @@ import codeIcon from '../img/programming-code-signs.png';
 import instagramIcon from '../img/instagram.png';
 import linkedinIcon from '../img/linkedin.png';
 import golangImage from '../img/golangImage.jpg';
+import gmailIcon from '../img/gmail.png';
 
 export const PageHome: React.FC = () => {
     return (
@@ -19,7 +20,7 @@ export const PageHome: React.FC = () => {
                                 <div className="col">
                                     <div className='sticky-content pt-4'>
                                         <h1 className='textStyleGeneral fs-2'>João Vitor</h1>
-                                        <h2 className='textStyleGeneral fs-4'> <img src={codeIcon} width={40} height={30} alt="dev"  /> Desenvolvedor backend</h2>
+                                        <h2 className='textStyleGeneral fs-4'> <img src={codeIcon} width={40} height={30} alt="dev" /> Desenvolvedor backend</h2>
                                         <div className='tecnologies-style textStyleGeneral'>
                                             <p className='fw-lighter paragath-style-tecnology'>Node.js</p>
                                             <p className='fw-lighter paragath-style-tecnology'>TypeScript</p>
@@ -37,13 +38,18 @@ export const PageHome: React.FC = () => {
                                         <div className='container-footer-socialmidia'>
                                             <ul className='footer-icons d-flex justify-content-start'>
                                                 <li className='mx-2 li-icons'>
-                                                    <a href="https://github.com/JoaoVitorML-BR" target="blank"><img className='imagesFooter' alt="gitHub"  src={gitHubIcon}></img></a>
+                                                    <a href="https://github.com/JoaoVitorML-BR" target="blank"><img className='imagesFooter' alt="gitHub" src={gitHubIcon}></img></a>
                                                 </li >
                                                 <li className='mx-2'>
                                                     <a href="https://www.linkedin.com/in/jo%C3%A3o-vitorml-br/" target="blank"><img className='imagesFooter' alt="linkedin" src={linkedinIcon}></img></a>
                                                 </li>
                                                 <li className='mx-2'>
-                                                    <a href="https://www.instagram.com/joao_vitor_0o/" target="blank"><img className='imagesFooter' alt="instagram"  src={instagramIcon}></img></a>
+                                                    <a href="https://www.instagram.com/joao_vitor_0o/" target="blank"><img className='imagesFooter' alt="instagram" src={instagramIcon}></img></a>
+                                                </li>
+                                                <li className='mx-2'>
+                                                    <a href="mailto:contatojoaovtml@gmail.com" target="_blank">
+                                                        <img className='imagesFooter-gmail' alt="email" src={gmailIcon}></img>
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </div>

@@ -16,11 +16,21 @@ body {
 }
 
 .imagesFooter {
-  height: 23px;
-  width: 23px;
+  height: 25px;
+  width: 25px;
+}
+
+.imagesFooter-gmail{
+  height: 30px;
+  width: 30x;
 }
 
 .imagesFooter:hover {
+  opacity: 30%;
+  background-color: #000000;
+}
+
+.imagesFooter-gmail:hover {
   opacity: 30%;
   background-color: #000000;
 }
