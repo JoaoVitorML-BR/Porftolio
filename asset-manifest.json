@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/meu-portfolio/static/css/main.bdf9229b.css",
+    "main.js": "/meu-portfolio/static/js/main.8ff62c57.js",
+    "static/js/453.1407b060.chunk.js": "/meu-portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/iscompatilble-site.png": "/meu-portfolio/static/media/iscompatilble-site.ed15d89052bde1e4603e.png",
+    "static/media/tubeloads-site.png": "/meu-portfolio/static/media/tubeloads-site.6086706afcd71253ceb0.png",
+    "static/media/golangImage.jpg": "/meu-portfolio/static/media/golangImage.ca24d8407d84308ee942.jpg",
+    "static/media/github.png": "/meu-portfolio/static/media/github.8807199d88b6bbe30fc5.png",
+    "static/media/instagram.png": "/meu-portfolio/static/media/instagram.0ee4108137cc3a80420c.png",
+    "static/media/programming-code-signs.png": "/meu-portfolio/static/media/programming-code-signs.d2c2e1c4db99945d67a4.png",
+    "index.html": "/meu-portfolio/index.html",
+    "main.bdf9229b.css.map": "/meu-portfolio/static/css/main.bdf9229b.css.map",
+    "main.8ff62c57.js.map": "/meu-portfolio/static/js/main.8ff62c57.js.map",
+    "453.1407b060.chunk.js.map": "/meu-portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdf9229b.css",
+    "static/js/main.8ff62c57.js"
+  ]
+}
