@@ -47,7 +47,7 @@ export const PageHome: React.FC = () => {
                                                     <a href="https://www.instagram.com/joao_vitor_0o/" target="blank"><img className='imagesFooter' alt="instagram" src={instagramIcon}></img></a>
                                                 </li>
                                                 <li className='mx-2'>
-                                                    <a href="mailto:contatojoaovtml@gmail.com" target="_blank">
+                                                    <a href="mailto:contatojoaovtml@gmail.com" target="blank">
                                                         <img className='imagesFooter-gmail' alt="email" src={gmailIcon}></img>
                                                     </a>
                                                 </li>
