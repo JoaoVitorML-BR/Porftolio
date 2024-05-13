@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+/**
+ * Estilos para telas menores que 768px
+ *
+ * @format
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-style {
+  background: linear-gradient(to bottom, #13293D, #006494); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.imagesFooter {
+  height: 23px;
+  width: 23px;
+}
+
+.imagesFooter:hover {
+  opacity: 30%;
+  background-color: #000000;
+}
+
+.container-footer-socialmidia {
+  margin-left: 25vh;
+}
+
+.footer-icons{
+  list-style: none;
+    padding: 0;
+}
+
+.footer-icons li {
+  display: inline-block;
+}
+
+.textStyleGeneral {
+  color: #ffffff;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+.sticky-content {
+  position: sticky;
+  top: 0;
+  background-color: inherit; 
+  z-index: 100; 
+}
+
+.gradient-line {
+  display: none; 
+}
+
+.hr-style {
+  color: #ffffff;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.gradient-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 100px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+  z-index: 1;
+  animation: gradient-animation 3s ease-in-out infinite alternate;
+  opacity: 0;
+}
+
+.image-container:hover .gradient-border {
+  opacity: 1;
+}
+
+@keyframes gradient-animation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(1%);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Estilos para telas maiores ou iguais a 768px */
+@media (min-width: 992px) {
+  .vertical-line {
+    border-left: 1px solid #ffffff;
+    height: 70%;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+  }
+}
+
+.container-experiences {
+  padding: 10px;
+}
+
+.container-experiences:hover {
+  opacity: 98%; 
+  background: linear-gradient(to bottom, #006494, #13293D); 
+  border-radius: 10px;
+}
+
+.image-container:hover img {
+  opacity: 30%;
+  border: 10px;
+  background-color: #000000;
+}
+
+.tecnologies-style {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.tecnologies-style p {
+  transition: opacity 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 768px) {
+  .tecnologies-style {
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+  .tecnologies-style p {
+    flex: 1 0 50%;
   }
+
+  .paragath-style-tecnology{
+    font-size: 12px;
+  }
+}
+
+.link-no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.paragath-style-tecnology{
+  font-size: 15px;
 }
