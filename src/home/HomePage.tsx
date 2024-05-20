@@ -63,7 +63,7 @@ export const PageHome: React.FC = () => {
                                             <h4 className='textStyleGeneral fw-normal fs-4'>Prefeitura de Arapiraca/AL</h4>
                                             <h5 className='textStyleGeneral fw-light fs-5'>Desenvolvedor de automatizações Qgis</h5>
                                             <h6 className='textStyleGeneral fw-lighter paragath-style-tecnology'>03/2023 até o momento</h6>
-                                            <p className='textStyleGeneral fw-light paragath-style-tecnology'>Desenvolvo sistemas automatizados no QGIS, utilizando PyQGIS e PostgreSQL. Também integro a API JavaScript/TypeScript do Google Maps em projetos específicos para expandir funcionalidades usando Node.JS e React.<br /></p>
+                                            <p className='textStyleGeneral fw-light paragath-style-tecnology'>Desenvolvo sistemas automatizados no QGIS, utilizando PyQGIS e PostgreSQL. Também integro a API JavaScript/TypeScript do Google Maps em projetos específicos para expandir funcionalidades usando Node.JS e React, além de criar dashboards e planilhas usando Looker, Power BI integrado com o google planilhas.<br /></p>
                                             <div className='tecnologies-style textStyleGeneral'>
                                                 <p className='fw-lighter paragath-style-tecnology'>React.js</p>
                                                 <p className='fw-lighter paragath-style-tecnology'>Node.js</p>
@@ -72,6 +72,7 @@ export const PageHome: React.FC = () => {
                                                 <p className='fw-lighter paragath-style-tecnology'>Google planilhas</p>
                                                 <p className='fw-lighter paragath-style-tecnology'>Qgis/PyQGIS</p>
                                                 <p className='fw-lighter paragath-style-tecnology'>Python</p>
+                                                <p className='fw-lighter paragath-style-tecnology'>Power BI</p>
                                             </div>
                                         </div>
 
