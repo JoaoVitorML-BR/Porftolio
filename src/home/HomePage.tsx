@@ -72,7 +72,7 @@ export const PageHome: React.FC = () => {
                                                 <p className='fw-lighter paragath-style-tecnology'>Google planilhas</p>
                                                 <p className='fw-lighter paragath-style-tecnology'>Qgis/PyQGIS</p>
                                                 <p className='fw-lighter paragath-style-tecnology'>Python</p>
-                                                <p className='fw-lighter paragath-style-tecnology'>Power BI</p>
+                                                <p className='fw-lighter paragath-style-tecnology'>Dashboard</p>
                                             </div>
                                         </div>
 
@@ -125,10 +125,6 @@ export const PageHome: React.FC = () => {
                                                     <p className='fw-lighter paragath-style-tecnology'>React.js</p>
                                                     <p className='fw-lighter paragath-style-tecnology'>Node.js</p>
                                                     <p className='fw-lighter paragath-style-tecnology'>TypeScript</p>
-                                                    <p className='fw-lighter paragath-style-tecnology'>PostgreSQL</p>
-                                                    <p className='fw-lighter paragath-style-tecnology'>Google planilhas</p>
-                                                    <p className='fw-lighter paragath-style-tecnology'>Qgis/PyQGIS</p>
-                                                    <p className='fw-lighter paragath-style-tecnology'>Python</p>
                                                 </div>
                                             </a>
                                         </div>
